@@ -1,6 +1,6 @@
 [jsweb1.5](https://vieuxloupgris.github.io/jsweb1.5/)
-### I use bootstrap for solve this chalenge. I know it's sheet. I don't respect the instructions of the exercise.
-### After talking with the other students, it seems that everyone is moving fast because they are not following all the instructions. And now I'm running out of time.
+I use bootstrap for solve this chalenge. I know it's sheet. I don't respect the instructions of the exercise.
+After talking with the other students, it seems that everyone is moving fast because they are not following all the instructions. And now I'm running out of time.
 
 ## 1.5 - Cat cycler
 
