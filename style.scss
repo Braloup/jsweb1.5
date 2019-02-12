@@ -1,14 +1,27 @@
-
 /*
   Import the common theme.
 */
 @import "./_shared/scss/theme.scss";
-
 /*
   If you need some CSS for any reason you can put it here.
 */
-
-img {
-  width: 500px;
+.divCarousel {
   height: 500px;
+  width: 500px;
+  padding: 0;
+
+  .carousel-inner {
+    height: 500px;
+    width: 500px;
+
+    .carousel-item {
+      height: 500px;
+      width: 500px;
+    }
+  }
+
+  .carousel-item img {
+    height: 500px;
+    width: 500px;
+  }
 }
