@@ -13,15 +13,17 @@ console.log("Hey look in your browser console. It works!");
 
 import images from "./images/*.jpg";
 
-let i = 1;
+let count = 2;
 let countImg = Object.keys(images).length
 
-console.log(countImg);
+document.getElementById("CatImg").src =images["cat1"];
+
 
 setInterval( ()=>{
-  document.getElementById("CatImg").src =images["cat"+i];
-  console.log(images["cat"+i]);
-  i++;
+
+  document.getElementById("CatImg").src =images["cat"+count];
+
+  count++;
   if (i == 12){
     i = 1
   }
