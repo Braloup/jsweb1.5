@@ -10,3 +10,7 @@ import 'bootstrap';
 */
 
 console.log("Hey look in your browser console. It works!");
+
+$('.carousel').carousel({
+  interval: 10
+});
